@@ -1,0 +1,218 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.box.data-v-57280228 {
+  background: url(https://mat1.gtimg.com/news/feiyanarea/head_bg_new.png);
+  background-size: cover;
+  height: 30vh;
+}
+.box .box-title.data-v-57280228 {
+  position: relative;
+  height: 30vh;
+}
+.box .box-title .title.data-v-57280228 {
+  background: url(https://mat1.gtimg.com/news/images/inews/2020/feiyan/area/head_title.png);
+  background-size: 100% 100%;
+  height: 16vw;
+  width: 50vw;
+  position: relative;
+  left: 25%;
+  top: 10vh;
+}
+.box .box-title .text.data-v-57280228 {
+  position: relative;
+  font-size: 3.2vw;
+  color: white;
+  text-align: center;
+  top: 13vh;
+}
+.box .box-card .title.data-v-57280228 {
+  color: #222;
+  font-size: 5.5vw;
+  font-weight: 600;
+  text-align: center;
+  margin: 2vh;
+}
+.box .box-card .card1.data-v-57280228,
+.box .box-card .card4.data-v-57280228,
+.box .box-card .card12.data-v-57280228 {
+  margin: 0.1vh;
+  background-color: #fffaf7;
+  width: 32.6vw;
+  height: 10vh;
+  text-align: center;
+}
+.box .box-card .card1 view.data-v-57280228,
+.box .box-card .card4 view.data-v-57280228,
+.box .box-card .card12 view.data-v-57280228 {
+  line-height: 4vh;
+}
+.box .box-card .card1 view.data-v-57280228:nth-of-type(1),
+.box .box-card .card4 view.data-v-57280228:nth-of-type(1),
+.box .box-card .card12 view.data-v-57280228:nth-of-type(1) {
+  margin-top: 1.5vh;
+  color: #e57631;
+  font-size: 5.5vw;
+  font-weight: 700;
+}
+.box .box-card .card1 view.data-v-57280228:nth-of-type(2),
+.box .box-card .card4 view.data-v-57280228:nth-of-type(2),
+.box .box-card .card12 view.data-v-57280228:nth-of-type(2) {
+  font-size: 4vw;
+  font-weight: 700;
+}
+.box .box-card .card2.data-v-57280228,
+.box .box-card .card5.data-v-57280228,
+.box .box-card .card7.data-v-57280228,
+.box .box-card .card10.data-v-57280228 {
+  margin: 0.1vh;
+  background-color: #fef7ff;
+  width: 32.6vw;
+  height: 10vh;
+  text-align: center;
+}
+.box .box-card .card2 view.data-v-57280228,
+.box .box-card .card5 view.data-v-57280228,
+.box .box-card .card7 view.data-v-57280228,
+.box .box-card .card10 view.data-v-57280228 {
+  line-height: 4vh;
+}
+.box .box-card .card2 view.data-v-57280228:nth-of-type(1),
+.box .box-card .card5 view.data-v-57280228:nth-of-type(1),
+.box .box-card .card7 view.data-v-57280228:nth-of-type(1),
+.box .box-card .card10 view.data-v-57280228:nth-of-type(1) {
+  margin-top: 1.5vh;
+  color: #ca3f81;
+  font-size: 5.5vw;
+  font-weight: 700;
+}
+.box .box-card .card2 view.data-v-57280228:nth-of-type(2),
+.box .box-card .card5 view.data-v-57280228:nth-of-type(2),
+.box .box-card .card7 view.data-v-57280228:nth-of-type(2),
+.box .box-card .card10 view.data-v-57280228:nth-of-type(2) {
+  font-size: 4vw;
+  font-weight: 700;
+}
+.box .box-card .card3.data-v-57280228,
+.box .box-card .card6.data-v-57280228,
+.box .box-card .card9.data-v-57280228 {
+  margin: 0.1vh;
+  background-color: #fff4f4;
+  width: 32.6vw;
+  height: 10vh;
+  text-align: center;
+}
+.box .box-card .card3 view.data-v-57280228,
+.box .box-card .card6 view.data-v-57280228,
+.box .box-card .card9 view.data-v-57280228 {
+  line-height: 4vh;
+}
+.box .box-card .card3 view.data-v-57280228:nth-of-type(1),
+.box .box-card .card6 view.data-v-57280228:nth-of-type(1),
+.box .box-card .card9 view.data-v-57280228:nth-of-type(1) {
+  margin-top: 1.5vh;
+  color: #be2121;
+  font-size: 5.5vw;
+  font-weight: 700;
+}
+.box .box-card .card3 view.data-v-57280228:nth-of-type(2),
+.box .box-card .card6 view.data-v-57280228:nth-of-type(2),
+.box .box-card .card9 view.data-v-57280228:nth-of-type(2) {
+  font-size: 4vw;
+  font-weight: 700;
+}
+.box .box-card .card8.data-v-57280228,
+.box .box-card .card11.data-v-57280228 {
+  margin: 0.1vh;
+  background-color: #f3f6f8;
+  width: 32.6vw;
+  height: 10vh;
+  text-align: center;
+}
+.box .box-card .card8 view.data-v-57280228,
+.box .box-card .card11 view.data-v-57280228 {
+  line-height: 4vh;
+}
+.box .box-card .card8 view.data-v-57280228:nth-of-type(1),
+.box .box-card .card11 view.data-v-57280228:nth-of-type(1) {
+  margin-top: 1.5vh;
+  color: #4e5a65;
+  font-size: 5.5vw;
+  font-weight: 700;
+}
+.box .box-card .card8 view.data-v-57280228:nth-of-type(2),
+.box .box-card .card11 view.data-v-57280228:nth-of-type(2) {
+  font-size: 4vw;
+  font-weight: 700;
+}
+.box .box-kownledge .title.data-v-57280228 {
+  color: #222;
+  font-size: 5.5vw;
+  font-weight: 600;
+  text-align: center;
+  margin: 3vh;
+}
+.box .box-kownledge .content.data-v-57280228 {
+  background-color: #f8f8f8;
+  margin: 0 5vw;
+  padding: 0 0 2vh 5vw;
+  box-sizing: border-box;
+  position: relative;
+}
+.box .box-kownledge .content .content-title.data-v-57280228 {
+  display: flex;
+  align-items: center;
+  padding-top: 2vh;
+}
+.box .box-kownledge .content .content-title .icon.data-v-57280228 {
+  display: inline-block;
+  height: 2ex;
+  width: 2ex;
+}
+.box .box-kownledge .content .content-title .text.data-v-57280228 {
+  font-size: 4vw;
+  font-weight: 500;
+  margin-left: 2vw;
+}
+.box .box-kownledge .content .content-content.data-v-57280228 {
+  padding-top: 1.5vh;
+}
+.box .box-kownledge .content .content-content .icon.data-v-57280228 {
+  position: relative;
+  top: 1.8vh;
+  height: 1vw;
+  width: 1vw;
+  background-color: #005dff;
+  border-radius: 0.5vw;
+}
+.box .box-kownledge .content .content-content .text.data-v-57280228 {
+  font-size: 3.5vw;
+  margin-left: 2vw;
+}
+.box .box-bottom.data-v-57280228 {
+  height: 3vh;
+}
+

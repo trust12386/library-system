@@ -1,0 +1,66 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/detail/index",
+      "style": {
+        "navigationBarTitleText": "疫情详情",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/center/index",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/city/index",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": true,
+        "app-plus": {
+          "scrollIndicator": "none"
+        }
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#909399",
+    "selectedColor": "#000000",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/home.png",
+        "selectedIconPath": "static/icon/home-selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/detail/index",
+        "iconPath": "static/icon/detail.png",
+        "selectedIconPath": "static/icon/detail-selected.png",
+        "text": "详情"
+      },
+      {
+        "pagePath": "pages/center/index",
+        "iconPath": "static/icon/me.png",
+        "selectedIconPath": "static/icon/me-selected.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
