@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body,
+#app {
+  height: 100vh;
+}
+.box {
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+.box-left {
+  width: 500px;
+  color: white;
+}
+.box-left-pie {
+  height: 350px;
+  margin-top: 50px;
+}
+.box-left-line {
+  height: 350px;
+  margin-top: 50px;
+}
+.box-left-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.box-left-card section {
+  flex: 1;
+  background-color: #223651;
+  border: 1px solid #212028;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box-left-card section div:nth-child(2) {
+  color: #41b0db;
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+.box-middle {
+  flex: 1;
+}
+.box-right {
+  width: 500px;
+  color: white;
+  height: 100vh;
+  overflow-y: auto;
+  position: relative;
+}
+.box-right .table {
+  position: absolute;
+  right: 0;
+  width: 400px;
+  background-color: #212028;
+}
+.box-right .table tr th {
+  padding: 5px;
+  white-space: nowrap;
+}
+.box-right .table tr td {
+  padding: 5px 10px;
+  width: 100px;
+  white-space: nowrap;
+  text-align: center;
+}
