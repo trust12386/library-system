@@ -1,0 +1,30 @@
+.startChat {
+  position: fixed;
+  font-size: 1.2em;
+  bottom: 48px;
+  right: 48px;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px solid black;
+  .left {
+    background-color: red;
+    flex: 4;
+  }
+  .right {
+    display: flex;
+    flex: 1;
+    background-color: skyblue;
+    > :first-child {
+      cursor: pointer;
+    }
+    > div,.admin,:first-child {
+      margin-left: 1.5em;
+    }
+  }
+}
